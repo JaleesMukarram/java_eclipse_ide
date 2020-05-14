@@ -1,0 +1,50 @@
+
+public class MCQsHandeling {
+
+    public static MCQs[] getMCQsArray() {
+        
+    	
+    	MCQs[] MCQsArray = new MCQs[4];
+
+        for (int i = 0; i < MCQsArray.length; i++) {
+            MCQsArray[i].classLevel = "12 Class";
+        }
+        MCQsArray[0].MCQsData = "How many sides a triangle have";
+        MCQsArray[1].MCQsData = "What is the value of pi";
+        MCQsArray[2].MCQsData = "The correct formula of Area is";
+        MCQsArray[3].MCQsData = "A triangle with one angle equals to 90 is called";
+
+        MCQsArray[0].MCQsOptions[0] = "2";
+        MCQsArray[0].MCQsOptions[1] = "3";
+        MCQsArray[0].MCQsOptions[2] = "4";
+        MCQsArray[0].MCQsOptions[3] = "5";
+
+        MCQsArray[0].setCorrectAnswer(2);
+
+        MCQsArray[1].MCQsOptions[0] = "3.14";
+        MCQsArray[1].MCQsOptions[1] = "4.14";
+        MCQsArray[1].MCQsOptions[2] = "6.14";
+        MCQsArray[1].MCQsOptions[3] = "2.14";
+
+        MCQsArray[1].setCorrectAnswer(1);
+
+        MCQsArray[2].MCQsOptions[0] = "Length*Width";
+        MCQsArray[2].MCQsOptions[1] = "Length/Width";
+        MCQsArray[2].MCQsOptions[2] = "Length+Width";
+        MCQsArray[2].MCQsOptions[3] = "Length-Width";
+
+        MCQsArray[2].setCorrectAnswer(1);
+
+        MCQsArray[3].MCQsOptions[0] = "Equilateral";
+        MCQsArray[3].MCQsOptions[1] = "Oblique";
+        MCQsArray[3].MCQsOptions[2] = "Perpendicular";
+        MCQsArray[3].MCQsOptions[3] = "Acute";
+
+
+        MCQsArray[3].setCorrectAnswer(3);
+        return MCQsArray;
+
+
+    }
+
+}

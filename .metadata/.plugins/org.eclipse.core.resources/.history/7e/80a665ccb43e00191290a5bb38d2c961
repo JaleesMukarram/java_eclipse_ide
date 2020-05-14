@@ -1,0 +1,14 @@
+package ThisPractice;
+
+public class This {
+	int ril;
+	static int  s;
+
+	void sa(int az) {
+		this.ril = az;
+	}
+
+	public static void main(String args) {
+
+	}
+}

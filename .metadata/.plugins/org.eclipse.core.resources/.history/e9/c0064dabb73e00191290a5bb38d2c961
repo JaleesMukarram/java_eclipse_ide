@@ -1,0 +1,23 @@
+package ThisPractice;
+
+public class This {
+	int code;
+	static int  num;
+
+	void setCode(int code) {
+		this.code = code;
+	}
+
+	void setNum(int num) {
+		this.num = num;
+	}
+	
+	public static void main(String []args) {
+		This ibh = new This();
+		ibh.setNum(424234);
+		System.out.println(num);
+		
+		
+
+	}
+}

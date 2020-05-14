@@ -1,0 +1,20 @@
+//import static org.junit.jupiter.api.Assertions.*;
+//
+//import org.junit.jupiter.api.Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+class JUnitTestClass {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+		
+		JUnitTesting test = new JUnitTesting();
+		int result = test.multilpy(3,10);
+		assertEquals(30, result);
+	}
+
+}

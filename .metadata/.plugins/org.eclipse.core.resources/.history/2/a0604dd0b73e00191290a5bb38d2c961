@@ -1,0 +1,24 @@
+package ThisPractice;
+
+public class This {
+	int code;
+	static int  num;
+
+	void setCode(int code) {
+		this.code = code;
+	}
+	void getCode() {
+		System.out.println(code);
+	}
+
+
+	
+	public static void main(String []args) {
+		This i = new This();
+		i.code = 32;
+		i.getCode();
+		
+		
+
+	}
+}

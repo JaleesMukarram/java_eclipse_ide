@@ -1,0 +1,59 @@
+
+public class MCQs {
+
+    public boolean isAttemptedCorrect() {
+        return AttemptedCorrect;
+    }
+
+    public void setAttemptedCorrect(boolean attemptedCorrect) {
+        AttemptedCorrect = attemptedCorrect;
+    }
+
+    int MCQsNumber;
+    String MCQsData;
+    String [] MCQsOptions = new String[4];
+    String classLevel;
+    int CorrectAnswer;
+    boolean AttemptedCorrect;
+
+    public int getCorrectAnswer() {
+        return CorrectAnswer;
+    }
+
+    public void setCorrectAnswer(int correctAnswer) {
+        CorrectAnswer = correctAnswer;
+    }
+
+    public int getMCQsNumber() {
+        return MCQsNumber;
+    }
+
+    public void setMCQsNumber(int MCQsNumber) {
+        this.MCQsNumber = MCQsNumber;
+    }
+
+    public String getMCQsData() {
+        return MCQsData;
+    }
+
+    public void setMCQsData(String MCQsData) {
+        this.MCQsData = MCQsData;
+    }
+
+    public String[] getMCQsOptions() {
+        return MCQsOptions;
+    }
+
+    public void setMCQsOptions(String[] MCQsOptions) {
+        this.MCQsOptions = MCQsOptions;
+    }
+
+    public String getClassLevel() {
+        return classLevel;
+    }
+
+    public void setClassLevel(String classLevel) {
+        this.classLevel = classLevel;
+    }
+
+}

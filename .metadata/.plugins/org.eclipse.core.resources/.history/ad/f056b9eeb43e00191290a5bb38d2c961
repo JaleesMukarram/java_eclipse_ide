@@ -1,0 +1,18 @@
+package ThisPractice;
+
+public class This {
+	int ril;
+	static int  s;
+
+	void set(int az) {
+		this.ril = az;
+	}
+
+	void set1(int ee) {
+		this.s = ee;
+	}
+	
+	public static void main(String args) {
+
+	}
+}

@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JUnitTestClass {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+		
+		JUnitTesting test = new JUnitTesting();
+		int result = test.add(4, 4);
+		assert(equals(8, result))
+	}
+
+}
